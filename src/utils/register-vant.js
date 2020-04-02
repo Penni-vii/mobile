@@ -1,6 +1,12 @@
 import Vue from 'vue'
 // 加载vant组件
-import { Navbar } from 'vant'
+import {
+  NavBar,
+  Field,
+  Button
+} from 'vant'
 
 // 注册vant组件
-Vue.use(Navbar)
+Vue.use(NavBar)
+  .use(Field)
+  .use(Button)
