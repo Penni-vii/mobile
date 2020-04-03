@@ -3,10 +3,14 @@ import Vue from 'vue'
 import {
   NavBar,
   Field,
-  Button
+  Button,
+  Cell,
+  CellGroup
 } from 'vant'
 
 // 注册vant组件
 Vue.use(NavBar)
   .use(Field)
   .use(Button)
+  .use(Cell)
+  .use(CellGroup)
